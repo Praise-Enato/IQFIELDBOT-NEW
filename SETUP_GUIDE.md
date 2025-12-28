@@ -15,7 +15,7 @@ Before starting, make sure you have:
 ### Step 1: Clone/Download the Project
 
 ```bash
-# Clone the repository
+# Clone the repository.
 git clone <repository-url>
 cd IQFIELDBOT1
 ```
