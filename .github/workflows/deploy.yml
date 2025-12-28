@@ -28,16 +28,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-          cache-dependency-path: 'iqfieldbot/package-lock.json'
+          cache: "npm"
+          cache-dependency-path: "package-lock.json"
 
       - name: Install dependencies
         run: npm ci
-        working-directory: iqfieldbot
 
       - name: Build
         run: npm run build
-        working-directory: iqfieldbot
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -45,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'iqfieldbot/dist'
+          path: "dist"
 
       - name: Deploy to GitHub Pages
         id: deployment

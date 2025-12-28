@@ -14,12 +14,10 @@ Before starting, make sure you have:
 
 ### Step 1: Clone/Download the Project
 
-If you have the project files, create a new folder and copy all files there:
-
 ```bash
-mkdir iqfieldbot
-cd iqfieldbot
-# Copy all project files here
+# Clone the repository
+git clone <repository-url>
+cd IQFIELDBOT-NEW
 ```
 
 ### Step 2: Install Frontend Dependencies
@@ -251,7 +249,7 @@ Your app will be available at: `http://your-bucket-name.s3-website-us-east-1.ama
 
    # Clone your project
    git clone your-repo-url
-   cd iqfieldbot
+   cd IQFIELDBOT-NEW
    ```
 
 3. **Setup Application**:
