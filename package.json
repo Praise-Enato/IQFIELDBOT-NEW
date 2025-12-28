@@ -2,6 +2,7 @@
   "name": "iqfieldbot",
   "version": "1.0.0",
   "description": "Personalized IQ Testing Chatbot by Praise Enato",
+  "homepage": "https://praise-enato.github.io/IQFIELDBOT1/",
   "type": "module",
   "scripts": {
     "dev": "vite",
