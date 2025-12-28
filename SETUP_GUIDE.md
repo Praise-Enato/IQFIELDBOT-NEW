@@ -17,7 +17,7 @@ Before starting, make sure you have:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd IQFIELDBOT-NEW
+cd IQFIELDBOT1
 ```
 
 ### Step 2: Install Frontend Dependencies
@@ -249,7 +249,7 @@ Your app will be available at: `http://your-bucket-name.s3-website-us-east-1.ama
 
    # Clone your project
    git clone your-repo-url
-   cd IQFIELDBOT-NEW
+   cd IQFIELDBOT1
    ```
 
 3. **Setup Application**:
